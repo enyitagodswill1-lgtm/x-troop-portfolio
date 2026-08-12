@@ -989,12 +989,13 @@ footer {
 
 }/* =========================
   /* =========================
+ /* =========================
    XTROOP TECH LOGO
 ========================= */
 
 .logo {
     width: 70px;
-    height: auto;
+    height: 55px;
     display: block;
     object-fit: contain;
 }
@@ -1003,5 +1004,7 @@ footer {
 @media (max-width: 768px) {
     .logo {
         width: 55px;
+        height: 45px;
     }
+}
 }
