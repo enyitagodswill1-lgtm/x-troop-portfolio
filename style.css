@@ -991,11 +991,17 @@ footer {
    XTROOP TECH LOGO
 ========================= */
 
-.logo {
+.l.logo {
     width: 90px;
     height: auto;
     display: block;
     object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
 }
 
 /* Mobile */
