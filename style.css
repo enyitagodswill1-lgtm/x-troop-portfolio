@@ -993,10 +993,12 @@ footer {
 
 .l.logo {
     .logo {
-    width: 90px;
+   .logo {
+    width: 70px;
     height: auto;
     display: block;
     object-fit: contain;
+}
 }
 }
 }
