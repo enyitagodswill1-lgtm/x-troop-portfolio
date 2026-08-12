@@ -988,24 +988,20 @@ footer {
     }
 
 }/* =========================
+  /* =========================
    XTROOP TECH LOGO
 ========================= */
 
-.l.logo {
-    .logo {
-   .logo {
+.logo {
     width: 70px;
     height: auto;
     display: block;
     object-fit: contain;
 }
-}
-}
-}
 
 /* Mobile */
 @media (max-width: 768px) {
     .logo {
-        width: 70px;
+        width: 55px;
     }
 }
