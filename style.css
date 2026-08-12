@@ -987,4 +987,20 @@ footer {
         font-size: 38px;
     }
 
+}/* =========================
+   XTROOP TECH LOGO
+========================= */
+
+.logo {
+    width: 90px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .logo {
+        width: 70px;
+    }
 }
