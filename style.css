@@ -1006,5 +1006,36 @@ footer {
         width: 55px;
         height: 45px;
     }
+}/* =========================
+   XTROOP TECH BRAND
+========================= */
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.brand-name span {
+    color: #007bff;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .brand {
+        gap: 8px;
+    }
+
+    .brand-name {
+        font-size: 18px;
+    }
 }
 }
