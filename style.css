@@ -255,6 +255,19 @@ section p {
     color: #ffffff;
     box-shadow: 0 10px 30px rgba(47, 140, 255, 0.25);
 }
+.hero-buttons a:nth-child(3) {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.hero-buttons a:nth-child(3):hover {
+    background: #ffffff;
+    color: #07111f;
+    border-color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
+}
 
 /* ==================================================
    HERO IMAGE
