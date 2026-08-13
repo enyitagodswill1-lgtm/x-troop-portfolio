@@ -1189,3 +1189,44 @@ footer {
         font-size: 38px;
     }
 }
+/* =========================
+   DOWNLOAD CV BUTTON
+========================= */
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.hero-buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 24px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    font-weight: 700;
+
+    transition: all 0.3s ease;
+}
+
+.hero-buttons a:nth-child(3) {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #2f8cff;
+}
+
+.hero-buttons a:nth-child(3):hover {
+    background: #2f8cff;
+    color: #ffffff;
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 10px 30px rgba(47, 140, 255, 0.3);
+}
