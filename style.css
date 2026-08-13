@@ -523,12 +523,44 @@ section p {
 }
 
 .skill-progress {
-    width: 85%;
     height: 100%;
-    background: #2f8cff;
     border-radius: 10px;
+
+    background: linear-gradient(
+        90deg,
+        #2f8cff,
+        #55b4ff
+    );
+
+    transform-origin: left;
+    animation: skillLoad 1.2s ease forwards;
 }
 
+.html-progress {
+    width: 90%;
+}
+
+.css-progress {
+    width: 85%;
+}
+
+.js-progress {
+    width: 70%;
+}
+
+.git-progress {
+    width: 75%;
+}
+
+@keyframes skillLoad {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
 /* ==================================================
    PROJECTS
    ================================================== */
