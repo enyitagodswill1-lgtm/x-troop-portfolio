@@ -82,13 +82,37 @@ nav {
 }
 
 nav a {
-    color: #ffffff;
-    font-weight: bold;
-    transition: 0.3s ease;
+    position: relative;
+
+    color: #b8c4d6;
+    font-weight: 600;
+
+    padding: 8px 2px;
+
+    transition: color 0.3s ease;
+}
+
+nav a::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 0;
+    height: 2px;
+
+    background: #2f8cff;
+
+    transition: width 0.3s ease;
 }
 
 nav a:hover {
     color: #2f8cff;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 /* ==================================================
