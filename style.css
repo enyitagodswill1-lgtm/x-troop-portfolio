@@ -1230,3 +1230,55 @@ footer {
     box-shadow:
         0 10px 30px rgba(47, 140, 255, 0.3);
 }
+/* =========================
+   GITHUB CONTACT CARD
+========================= */
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+    padding: 20px;
+
+    text-decoration: none;
+    color: #ffffff;
+
+    background: #0d1d31;
+
+    border: 1px solid rgba(47, 140, 255, 0.25);
+    border-radius: 16px;
+
+    transition: 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateX(6px);
+    border-color: #2f8cff;
+    box-shadow: 0 10px 30px rgba(47, 140, 255, 0.2);
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 14px;
+
+    background: rgba(47, 140, 255, 0.12);
+    color: #2f8cff;
+
+    font-size: 22px;
+}
